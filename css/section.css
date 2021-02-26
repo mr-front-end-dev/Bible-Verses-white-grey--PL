@@ -2,13 +2,22 @@
   padding: 15px;
 }
 
-.section--h1 {
+.section__h1 {
   text-align: center;
 }
 
-.section--paragraph {
+.section__paragraph {
   font-size: 20px;
   padding: 5px;
+}
+
+.section__button--underscore {
+  color:hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 50%);
+  border-style: none;
+  font-size: 14px;
+  padding: 8px;
+  margin: 5px;
 }
 
 .section--bold{
@@ -50,4 +59,8 @@
 
 .section--color--gold {
   color: hsl(51, 100%, 45%);
+}
+
+.section--color--aqua {
+  color: hsl(180, 100%, 45%); 
 }
